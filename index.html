@@ -143,26 +143,16 @@
                             <div id="dropdown" class="absolute mt-10 lg:mt-0 right-0 lg:right-auto lg:left-0 divide-y divide-gray-100 rounded-lg shadow hidden z-10">
                                 <ul class="text-sm text-gray-700 " aria-labelledby="dropdownDefaultButton">
                                     <li>
-                                        <a href="#" class="block px-16 py-1 hover:bg-gray-100 text-xl text-gray-700 border-b border-gray-100 transition-all duration-300 transform hover:text-black hover:translate-x-1 lg:hover:bg-transparent lg:border-0 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Project 1</a>
+                                        <a href="projects.html" class="block px-16 py-1 hover:bg-gray-100 text-xl text-gray-700 border-b border-gray-100 transition-all duration-300 transform hover:text-black hover:translate-x-1 lg:hover:bg-transparent lg:border-0 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Exterior</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="block px-16 py-1 hover:bg-gray-100 text-xl text-gray-700 border-b border-gray-100 transition-all duration-300 transform hover:text-black hover:translate-x-1 lg:hover:bg-transparent lg:border-0 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Project 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="block px-16 py-1 hover:bg-gray-100 text-xl text-gray-700 border-b border-gray-100 transition-all duration-300 transform hover:text-black hover:translate-x-1 lg:hover:bg-transparent lg:border-0 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Project 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="block px-16 py-1 hover:bg-gray-100 text-xl text-gray-700 border-b border-gray-100 transition-all duration-300 transform hover:text-black hover:translate-x-1 lg:hover:bg-transparent lg:border-0 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Project 4</a>
+                                        <a href="#" class="block px-16 py-1 hover:bg-gray-100 text-xl text-gray-700 border-b border-gray-100 transition-all duration-300 transform hover:text-black hover:translate-x-1 lg:hover:bg-transparent lg:border-0 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Interior</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <!-- Add other navigation links as needed -->
 
-                        
-                        <li id="exteriorButton">
-                            <a href="projects.html" class="block py-3 pr-6 pl-4 text-xl text-gray-700 border-b border-gray-100 transition-all duration-300 transform hover:text-black hover:translate-x-1 lg:hover:bg-transparent lg:border-0 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Exterior</a>
-                        </li>
                         <li id="blogButton">
                             <a href="blog.html" class="block py-3 pr-6 pl-4 text-xl text-gray-700 border-b border-gray-100 transition-all duration-300 transform hover:text-black hover:translate-x-1 lg:hover:bg-transparent lg:border-0 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Blog</a>
                         </li>
@@ -607,12 +597,12 @@
 
     dropdownButton.addEventListener('click', function() {
         if (dropdownMenu.classList.contains('hidden')) {
-            exteriorButton.style.transform = 'translateY(15vh)';
-            blogButton.style.transform = 'translateY(15vh)';
-            contactButton.style.transform = 'translateY(15vh)';
-            mainBeginingContent.style.transform = 'translateY(15vh)';
+            // exteriorButton.style.transform = 'translateY(15vh)';
+            blogButton.style.transform = 'translateY(5vh)';
+            contactButton.style.transform = 'translateY(5vh)';
+            mainBeginingContent.style.transform = 'translateY(5vh)';
         } else {
-            exteriorButton.style.transform = 'translateY(0)';
+            // exteriorButton.style.transform = 'translateY(0)';
             blogButton.style.transform = 'translateY(0)';
             contactButton.style.transform = 'translateY(0)';
             mainBeginingContent.style.transform = 'translateY(0)';
